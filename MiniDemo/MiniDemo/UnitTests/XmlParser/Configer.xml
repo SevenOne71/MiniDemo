@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configer Mark="Mark1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubValues>
+    <Key1>1</Key1>
+    <Key2>1.0</Key2>
+    <Key3>1</Key3> <!--string-->
+  </SubValues>
+  <PairList Mark="Mark2">
+    <Setting Key="1" Value="1" />
+    <Setting Key="2" Value="2" />
+    <Setting Key="3" Value="3" />
+  </PairList>
+  <MultiAttribute Val1="1" Val2="1.5" />
+</Configer>
