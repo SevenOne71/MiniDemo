@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlParser\CmdResolveHelperTest.cs" />
     <Compile Include="XmlParser\XmlParseHelperTest.cs" />
   </ItemGroup>
   <ItemGroup>

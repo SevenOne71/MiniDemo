@@ -40,12 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandParser\Attributes\InternalClassAttribute.cs" />
+    <Compile Include="CommandParser\Attributes\RangeAttribute.cs" />
+    <Compile Include="CommandParser\CmdResolveHelper.cs" />
+    <Compile Include="CommandParser\Attributes\ConstraintAttribute.cs" />
+    <Compile Include="CommandParser\Converter\StringConverter.cs" />
+    <Compile Include="CommandParser\Interface\IFieldConverter.cs" />
+    <Compile Include="CommandParser\Interface\IResolvableCmd.cs" />
+    <Compile Include="CommandParser\StructPropertyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlParser\SerializablePair.cs" />
     <Compile Include="XmlParser\XmlParseHelper.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Configer.xml" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
