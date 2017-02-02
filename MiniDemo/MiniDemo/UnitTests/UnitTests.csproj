@@ -35,6 +35,12 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.Contrib.0.3\lib\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq.Contrib">
+      <HintPath>..\packages\Moq.Contrib.0.3\lib\Moq.Contrib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -51,8 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XmlParser\CmdResolveHelperTest.cs" />
-    <Compile Include="XmlParser\XmlParseHelperTest.cs" />
+    <Compile Include="ShareLib\CmdResolveHelperTest.cs" />
+    <Compile Include="ShareLib\MoqTest.cs" />
+    <Compile Include="ShareLib\XmlParseHelperTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ShareLib\ShareLib.csproj">
